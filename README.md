@@ -1,19 +1,15 @@
-# pathpeek README
+# Peek File Path
 
-This is the README for your extension "pathpeek". After writing up a brief description, we recommend including the following sections.
+This VSCode extension lets you peek into files by relative or absolute path (optionally with a line number).
 
 ## Features
 
-Peek the file content from path like `./test/text1.txt:100`. Leave your cursor at the path, and press `Shift+O` (Windows, Linux, macOS) to peek.
+- **Shift+O**: Peek the file at the path under the cursor
+- **Shift+I**: Close the peek window
+- Supports relative and absolute paths with optional `:line` numbers
 
-## Known Issues
+## Usage
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 0.0.3
-
-Initial release of Path Peek.
-
----
+1. Place your cursor on a file path (e.g., `./src/utils/foo.ts:42`)
+2. Press **Shift+O** to open the file in a peek window
+3. Press **Shift+I** to close the peek window
