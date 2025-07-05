@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+
+# Compiled output
+out/
+dist/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# VSCE (extension packaging) output
+*.vsix
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Coverage (if you add tests)
+coverage/
+
+# Environment files
+.env
